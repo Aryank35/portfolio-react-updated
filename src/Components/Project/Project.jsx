@@ -9,7 +9,7 @@ const Project = () => {
         <div>
             <div className="project-box p-4 h-full w-full flex flex-col space-y-11 md:space-y-0 md:flex-row mx-auto">
                 
-                <div className="project-box-1 h-[650px] md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
+                <div className="project-box-1 h-fit md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
                     <h1 className='text-center font-bold text-2xl text-white py-3'>Picnic-Management-System</h1>
                     <div className="image">
                         <img src="./project.png" alt="image-project1" className='w-[80%] mx-auto py-3' />
@@ -28,7 +28,7 @@ const Project = () => {
                     </p>
                     
                 </div>
-                <div className="project-box-2 h-[650px] md:h-[750px] md:w-[30%] flex flex-col flex-wrap mx-auto border-2">
+                <div className="project-box-2 h-fit md:h-[750px] md:w-[30%] flex flex-col flex-wrap mx-auto border-2">
                     <h1 className='text-center font-bold text-2xl text-white py-3'>My Portfolio</h1>
                     <div className="image">
                         <img src="./project.png" alt="image-project2" className='w-[80%] mx-auto py-3' />
@@ -47,7 +47,7 @@ const Project = () => {
                     </p>
                     
                 </div>
-                <div className="project-box-3 h-[650px] md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
+                <div className="project-box-3 h-fit md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
                     <h1 className='text-center font-bold text-2xl text-white py-3'>Landing page</h1>
                     <div className="image">
                         <img src="./project.png" alt="image-project3" className='w-[80%] mx-auto py-3' />
