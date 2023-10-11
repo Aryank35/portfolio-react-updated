@@ -14,7 +14,7 @@ const Education = () => {
                     <div className="college-details text-white flex flex-col pl-3">
                     <h1 className="collegeName font-semibold md:text-lg text-white ">Gandhi Institute Of Technology and Advancement(GITA)</h1>
                     <p className="course text-slate-300 text-sm">Bachelor of Technology - BTech, Computer Science and Engineering</p>
-                    <p className='text-sm text-gray-300 text-sm'>2021-25</p>
+                    <p className='text-gray-300 text-sm'>2021-25</p>
                     </div>
                 </div>
                 <div className="college-desc md:text-xl text-white hidden " id='collegeDesc'>
