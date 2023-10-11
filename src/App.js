@@ -1,8 +1,9 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Hero from './Components/hero';
-import Skills from './Components/Skills'
-import Project from './Components/Project';
+import Navbar from './Components/Navbar/Navbar';
+import Hero from "./Components/Hero/Hero";
+import Skills from './Components/Skills/Skills'
+import Project from './Components/Project/Project';
+import Education from './Components/Education/Education';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Hero/>
       <Skills/>
       <Project/>
-     
+      <Education/>
     </div>
     </>
   );

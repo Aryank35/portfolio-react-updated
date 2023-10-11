@@ -1,12 +1,12 @@
 import React from 'react'
-import MenuIcon from "./images/menu.png"
-import PortfolioLogo from "./images/logo.jpg"
+// import MenuIcon from "./images/menu.png"
+// import PortfolioLogo from "./images/logo.jpg"
 const Navbar = () => {
   return (
     <nav className='Navbar md:bg-[#040015] pb-4 flex pt-8 items-center justify-between fixed w-[100%] h-[60px] z-[100]'>
         <div className='flex space-x-1 ml-6 mb-4'>
         <a href="#">
-            <img src={PortfolioLogo} alt="linkedin icon" className='h-[40px]  bg-center rounded-full' />
+            <img src="./logo.jpg" alt="linkedin icon" className='h-[40px]  bg-center rounded-full' />
         </a>
         <h1 className='text-2xl font-bold text-white flex text-center'>Portfolio</h1>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className=" flex md:hidden">
           <a href="#">
-            <img src={MenuIcon} alt="Menu Icon" className='h-[40px] mb-8 mr-3' />
+            <img src="./menu.png" alt="Menu Icon" className='h-[40px] mb-8 mr-3' />
           </a>
         </div>
     </nav>
