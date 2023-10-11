@@ -3,11 +3,11 @@ import React from 'react'
 const Education = () => {
   return (
     
-    <div className='Education bg-purple-950 w-full items-center py-4 mx-auto'>
+    <div className='Education bg-purple-950 w-full items-center py-4 mx-auto  md:px-[20%] 2xl:px-[35%]'>
         <div className="heading py-5">
             <h1 className='text-5xl text-white font-bold text-center'>Education</h1>
         </div>
-        <div className="EduBox mx-[300px] flex flex-col border-2 items-center  ">
+        <div className="EduBox flex flex-col border-2 items-center  ">
             <div className="box1">
                 <div className="college-info flex p-2" id='collegeInfo'>
                     <img src="./gita.png" className='w-[75px]' alt="" />
