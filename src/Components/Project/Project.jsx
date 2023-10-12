@@ -1,5 +1,4 @@
 import React from 'react'
-// import Project1 from "./images/project.png"
 const Project = () => {
   return (
     <div className='bg-[#1b1c2b] h-full w-full'>
