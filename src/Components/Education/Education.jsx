@@ -4,7 +4,7 @@ import Card from './Card'
 
 const Education = () => {
   return (
-    <div className='Education bg-[#1b1e2e] w-full items-center py-8 mx-auto  md:px-[20%] 2xl:px-[35%]'>
+    <div id='education' className='Education bg-[#1b1e2e] w-full items-center py-8 mx-auto  md:px-[20%] 2xl:px-[35%]'>
         <div className="heading py-5">
             <h1 className='text-5xl text-white font-bold text-center'>Education</h1>
         </div>

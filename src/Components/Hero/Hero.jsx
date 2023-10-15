@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <>
-      <div className='bg-[#040015] pb-8  h-full xl:h-screen flex pt-[65px] flex-col-reverse md:flex-row'>
+      <div id='hero' className='bg-[#040015] pb-8  h-full xl:h-screen flex pt-[65px] flex-col-reverse md:flex-row'>
         <div className='left-div flex flex-col justify-center px-3 m-auto md:w-[50%] space-y-4' id='left'>
           <h1 className='text-white text-2xl md:text-5xl font-bold'>Hi,I am</h1>
           <h1 className='text-white text-2xl md:text-5xl font-bold'>Aryan Kumar Mohapatra</h1>

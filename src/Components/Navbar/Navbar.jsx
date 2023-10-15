@@ -1,6 +1,5 @@
 import React from 'react'
-// import MenuIcon from "./images/menu.png"
-// import PortfolioLogo from "./images/logo.jpg"
+import { Link } from 'react-scroll'
 const Navbar = () => {
   return (
     <nav className='Navbar md:bg-[#040015] pb-4 flex pt-8 items-center justify-between fixed w-[100%] h-[60px] z-[100]'>
@@ -11,12 +10,12 @@ const Navbar = () => {
         <h1 className='text-2xl font-bold text-white flex text-center'>Portfolio</h1>
         </div>
         <div className=' hidden md:flex mb-4 '>
-          <ul className='flex justify-center text-xl space-x-6 font-bold text-white'>
-            <li><a className='hover:text-purple-400' href="#">About</a></li>
-            <li><a className='hover:text-purple-400' href="#">Skills</a></li>
-            <li><a className='hover:text-purple-400' href="#">Experience</a></li>
-            <li><a className='hover:text-purple-400' href="#">Project</a></li>
-            <li><a className='hover:text-purple-400' href="#">Education</a></li>
+          <ul className='flex justify-center text-xl space-x-10 font-bold text-white'>
+            <li><a className='hover:text-purple-400' href="#hero">About</a></li>
+            <li><a className='hover:text-purple-400' href="#skills">Skills</a></li>
+            {/* <li><a className='hover:text-purple-400' href="#">Experience</a></li> */}
+            <li><a className='hover:text-purple-400' href="#project">Project</a></li>
+            <li><a className='hover:text-purple-400' href="#education">Education</a></li>
           </ul>
         </div>
         <div className='md:flex hidden'>

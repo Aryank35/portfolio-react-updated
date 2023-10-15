@@ -1,7 +1,7 @@
 import React from 'react'
 const Project = () => {
   return (
-    <div className='bg-[#1b1c2b] h-full w-full'>
+    <div id='project' className='bg-[#1b1c2b] h-full w-full'>
         <h1 className='font-bold text-3xl md:text-5xl text-white text-center py-4'>Project</h1>
         <p className='text-center py-4 text-xl font-semibold text-white'>"Discover My Web Development Showcase</p>
         <p className='text-center pb-5 text-xl font-semibold text-gray-400'>Explore my web development projects crafted with HTML, Tailwind CSS, CSS, JavaScript, and React.js."</p>
