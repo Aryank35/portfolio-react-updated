@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`Mobile-Menu transition-all ease-out ${isMobileMenuOpen ? 'right-0' : '-right-[100%]'}  absolute top-0 flex flex-col bg-[#fff] w-40% rounded-10 space-y-4 delay-200 shadow-sm shadow-blue-300 px-8 py-16 text-lg font-semibold h-screen`}>
+      <div className={`Mobile-Menu transition-all ease-out ${isMobileMenuOpen ? 'right-0' : '-right-[100%]'}   absolute top-0 flex flex-col bg-[#fff] w-[60%] rounded-10 space-y-4 delay-200 shadow-sm shadow-blue-300 px-8 py-16 text-lg font-semibold h-fit rounded-xl`}>
         <div className='cancel font-bold w-fit text-3xl relative -top-9 left-[5%] text-red-600' onClick={toggleMobileMenu}>
           <FontAwesomeIcon icon={faXmark} />
         </div>
