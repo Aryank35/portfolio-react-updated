@@ -24,7 +24,7 @@ const Navbar = () => {
           <ul className='flex justify-center sm:text-lg sm:space-x-2 sm:font-semibold md:text-xl md:space-x-10 md:font-bold text-white'>
             <li><a className='hover:text-purple-400' href="#hero">About</a></li>
             <li><a className='hover:text-purple-400' href="#skills">Skills</a></li>
-            <li><a className='hover:text-purple-400' href="#project">Project</a></li>
+            <li><a className='hover:text-purple-400' href="#project">Projects</a></li>
             <li><a className='hover:text-purple-400' href="#education">Education</a></li>
             <li><a className='hover:text-purple-400' href="#education">Contact me</a></li>
           </ul>
@@ -47,7 +47,7 @@ const Navbar = () => {
         <ul className='nav-menu flex flex-col items-center space-y-3 font-semibold '>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#hero" onClick={toggleMobileMenu}>About</a></li>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#skills" onClick={toggleMobileMenu}>Skills</a></li>
-          <li><a className='hover:text-purple-400 active:underline py-1' href="#project" onClick={toggleMobileMenu}>Project</a></li>
+          <li><a className='hover:text-purple-400 active:underline py-1' href="#project" onClick={toggleMobileMenu}>Projects</a></li>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#education" onClick={toggleMobileMenu}>Education</a></li>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#education" onClick={toggleMobileMenu}>Contact me</a></li>
           <div>
