@@ -1,5 +1,4 @@
 import React from 'react'
-// import HeroImg from "./Componenets/images/heroImg.jpg"
 import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
