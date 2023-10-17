@@ -2,7 +2,7 @@ import React from 'react'
 // import data from "../../utills/EduInfo"
 const Card = (props) => {
   return (
-        <div className="box1 w-[90%] sm:w-[70%] md:[80%] flex flex-col  border-2 items-center">
+        <div className="box1 w-[90%] sm:w-[70%] md:[80%] flex flex-col  border-2 items-center rounded-md">
                 <div className="college-info flex p-2" id='collegeInfo'>
                     <img src={props.img} className='h-[50px] md:h-[80px]' alt="" />
                     <div className="college-details text-white flex flex-col pl-3">

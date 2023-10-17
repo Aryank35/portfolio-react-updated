@@ -26,7 +26,7 @@ const Navbar = () => {
             <li><a className='hover:text-purple-400' href="#skills">Skills</a></li>
             <li><a className='hover:text-purple-400' href="#project">Projects</a></li>
             <li><a className='hover:text-purple-400' href="#education">Education</a></li>
-            <li><a className='hover:text-purple-400' href="#education">Contact me</a></li>
+            <li><a className='hover:text-purple-400' href="#contact">Contact me</a></li>
           </ul>
           
         </div>
@@ -49,10 +49,10 @@ const Navbar = () => {
           <li><a className='hover:text-purple-400 active:underline py-1' href="#skills" onClick={toggleMobileMenu}>Skills</a></li>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#project" onClick={toggleMobileMenu}>Projects</a></li>
           <li><a className='hover:text-purple-400 active:underline py-1' href="#education" onClick={toggleMobileMenu}>Education</a></li>
-          <li><a className='hover:text-purple-400 active:underline py-1' href="#education" onClick={toggleMobileMenu}>Contact me</a></li>
+          <li><a className='hover:text-purple-400 active:underline py-1' href="#contact" onClick={toggleMobileMenu}>Contact me</a></li>
           <div>
-            <a href="https://github.com/Aryank35" target='_blank' className='mx-auto px-2 flex justify-center font-bold border-purple-200 border-2 rounded-2xl text-purple-400 hover:bg-purple-400 hover:text-black hover:transition-all hover:ease-in-out hover:duration-700 hover:delay-75 mb-4'>
-              <button className='px-1 py-2 text-lg text-center'>Github</button>
+            <a href="https://github.com/Aryank35" target='_blank' className='mx-auto px-5 flex justify-center font-semibold bg-slate-800 border-slate-600 border-2 rounded-2xl text-white hover:bg-purple-400 hover:text-black hover:transition-all hover:ease-in-out hover:duration-700 hover:delay-75 mb-4'>
+              <button className='px-1 py-2 text-lg text-center '>Github</button>
             </a>
           </div>
         </ul>
