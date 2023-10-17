@@ -11,18 +11,7 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const notify = ()=> {
-    toast.success('Message Sent Successfully!', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      });
-  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -68,7 +57,7 @@ const Contact = () => {
       <h1 className="font-bold text-3xl sm:text-5xl text-center">Contact me</h1>
       <p className="sm:text-lg text-slate-400 w-[90%] sm:w-[50%] text-center mx-auto ">I'd love if you reached out to me. Even if it's just to say "Hey!". Don't hesitate! Drop me a line and I'll get back to you ASAP!</p>
       </div>
-    <div className="flex justify-center items-center w-[90%] sm:w-[40%] bg-[#171721] rounded-xl shadow-md shadow-indigo-400" >
+    <div className="flex justify-center items-center w-[90%] sm:w-[40%] bg-[#171721] rounded-xl shadow-md shadow-indigo-400 mb-8" >
       <form ref={form} onSubmit={sendEmail} className="flex flex-col  py-6 w-[90%] ">
         <h1 className="text-2xl text-white font-bold text-center py-2">Email Me 🚀</h1>
         <label className="text-xl font-bold text-white">Name:</label>
@@ -89,59 +78,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// Styles
-// const StyledContactForm = styled.div`
-//   // width: 400px;
-
-//   // form {
-//   //   display: flex;
-//   //   flex-direction: column;
-//   //   width: 80%;
-//   //   justify-content:center;
-    
-//   //   font-size: 16px;
-//   //   background-color: #171721
-
-//   //   input {
-//   //     width: 100%;
-//   //     height: 35px;
-//   //     padding: 7px;
-//   //     outline: none;
-//   //     border-radius: 5px;
-//   //     border: 1px solid rgb(220, 220, 220);
-
-//   //     &:focus {
-//   //       border: 2px solid rgba(0, 206, 158, 1);
-//   //     }
-//   //   }
-
-//   //   textarea {
-//   //     max-width: 100%;
-//   //     min-width: 100%;
-//   //     width: 100%;
-//   //     max-height: 100px;
-//   //     min-height: 100px;
-//   //     padding: 7px;
-//   //     outline: none;
-//   //     border-radius: 5px;
-//   //     border: 1px solid rgb(220, 220, 220);
-
-//   //     &:focus {
-//   //       border: 2px solid rgba(0, 206, 158, 1);
-//   //     }
-//   //   }
-
-//   //   label {
-//   //     margin-top: 1rem;
-//   //   }
-
-//   //   input[type="submit"] {
-//   //     margin-top: 2rem;
-//   //     cursor: pointer;
-//   //     background: rgb(249, 105, 14);
-//   //     color: white;
-//   //     border: none;
-//   //   }
-//   // }
-// `;

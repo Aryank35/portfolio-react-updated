@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='flex flex-col space-y-7 py-9 bg-[#1c1c27] w-full'>
         <h1 className='text-[#854ce6] sm:text-2xl text-xl font-semibold text-center'>Aryan kumar Mohapatra</h1>
         <div className='nav-links  '>
-        <ul className='flex flex-col items-center sm:flex-row justify-center text-lg sm:space-x-2 font-semibold md:text-xl md:space-x-12 text-white'>
+        <ul className='flex flex-col items-center sm:flex-row justify-center text-lg space-y-2 sm:space-x-2 font-semibold md:text-xl md:space-x-12 text-white'>
             <li><a className='hover:text-purple-400' href="#hero">About</a></li>
             <li><a className='hover:text-purple-400' href="#skills">Skills</a></li>
             <li><a className='hover:text-purple-400' href="#project">Projects</a></li>

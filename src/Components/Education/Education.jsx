@@ -16,6 +16,7 @@ const Education = () => {
                             img={card.collegeLogo}
                             collegeName={card.collegeName}
                             course={card.course}
+                            grade = {card.grade}
                             period={card.period}
                             details={card.details}
                         />
