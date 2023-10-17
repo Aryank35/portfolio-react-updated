@@ -1,12 +1,12 @@
 import React from 'react'
 const Project = () => {
   return (
-    <div id='project' className='bg-[#1b1c2b] h-full w-full'>
-        <h1 className='font-bold text-3xl md:text-5xl text-white text-center py-4'>Project</h1>
+    <div id='project' className='bg-[#1b1c2b] h-full w-full py-6'>
+        <h1 className='font-bold text-3xl md:text-5xl text-white text-center '>Projects</h1>
         <p className='text-center py-4 text-xl font-semibold text-white'>"Discover My Web Development Showcase</p>
         <p className='text-center pb-5 text-xl font-semibold text-gray-400'>Explore my web development projects crafted with HTML, Tailwind CSS, CSS, JavaScript, and React.js."</p>
-        <div>
-            <div className="project-box p-4 h-full w-full flex flex-col space-y-11 md:space-y-0 md:flex-row mx-auto">
+    
+            <div className="project-box p-4 h-full w-full flex flex-col space-y-11 md:space-y-0 md:flex-row mx-auto pb-11">
                 
                 <div className="project-box-1 rounded-xl py-2 h-fit md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
                     <h1 className='text-center font-bold text-2xl text-white py-3'>Picnic-Management-System</h1>
@@ -64,7 +64,7 @@ const Project = () => {
                     
                 </div>
             </div>
-        </div>
+        
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='skills' className='Skills bg-[#1c1c27] h-full w-full'>
+    <div id='skills' className='Skills bg-[#1c1c27] h-full w-full pb-11 pt-5'>
         <h1 className='font-bold text-3xl md:text-5xl p-5 text-center text-white'>Skills</h1>
         <div className="flex flex-wrap">
             <div className="frontend-skills md:w-[45%] my-8 pb-8 md:h-fit h-full mx-[20px] md:mx-auto w-full rounded-xl p-3 border-purple-600 border-2">
