@@ -7,62 +7,66 @@ const Project = () => {
         <p className='text-center pb-5 text-xl font-semibold text-gray-400'>Explore my web development projects crafted with HTML, Tailwind CSS, CSS, JavaScript, and React.js."</p>
     
             <div className="project-box p-4 h-full w-full flex flex-col space-y-11 md:space-y-0 md:flex-row mx-auto pb-11">
-                
-                <div className="project-box-1 rounded-xl py-2 h-fit md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
-                    <h1 className='text-center font-bold text-2xl text-white py-3'>Picnic-Management-System</h1>
+            <div className="project-box-2 rounded-xl py-2 h-fit md:h-[650px] md:w-[30%] flex flex-col flex-wrap mx-auto border-2">
+                    <h1 className='text-center font-bold text-2xl text-white py-3'>Utsah (GITA Annual fest 2024)</h1>
                     <div className="image">
-                        <img src="./project.png" alt="image-project1" className='w-[80%] mx-auto py-3' />
+                        <img src="./utsah.jpg" alt="image-project2" className='w-[80%] mx-auto py-3 rounded-lg' />
                     </div>
-                    <a href="https://main--steady-swan-1fbb33.netlify.app/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>project link</button></a>
+                    <a href="https://gitafest.fun/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>gitafest.fun</button></a>
                     <p className='text-gray-400 font-semibold py-2 px-5 text-center'><span className='font-bold text-xl block text-left text-white'>Desc:</span>
-                    Welcome to PicnicPro, your one-stop solution for effortless college picnic management! This web application is built with HTML, CSS, and JavaScript to streamline the planning and organization of college picnics. Say goodbye to chaos and hello to smooth picnic experiences. Join us and start planning unforgettable picnics today! 🌞🌲🎉
+                    "A web app, utilizing React.js and TailwindCSS, streamlined festival details and participant registration through Google Forms, drawing 1692 unique users and enhancing the registration experience."
                     </p>
                     <p className='text-gray-400 font-semibold py-2 px-5'><span className='font-bold text-xl block text-left text-white'>Technology used:</span>
                     <ul>
-                        <li>HTML</li>
-                        <li>Tailwind css</li>
+                        <li>React js</li>
                         <li>Javascript</li>
+                        <li>Tailwind css</li>
+                        <li>Google form</li>
+                        <li>Google sheets</li>
                         
                     </ul>
                     </p>
                     
                 </div>
-                <div className="project-box-2 rounded-xl py-2 h-fit md:h-[750px] md:w-[30%] flex flex-col flex-wrap mx-auto border-2">
-                    <h1 className='text-center font-bold text-2xl text-white py-3'>My Portfolio</h1>
+                <div className="project-box-3 rounded-xl py-2 h-fit md:h-[650px] md:w-[30%] flex flex-col mx-auto border-2">
+                    <h1 className='text-center font-bold text-2xl text-white py-3'>Mohapatra-Estate</h1>
                     <div className="image">
-                        <img src="./project.png" alt="image-project2" className='w-[80%] mx-auto py-3' />
+                        <img src="./estate.jpeg" alt="image-project3" className='w-[80%] mx-auto py-3' />
                     </div>
-                    <a href="#https://portfolio-react-psi-one.vercel.app/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>My Portfolio</button></a>
+                    <a href="https://mohapatra-estate.vercel.app/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>project link</button></a>
                     <p className='text-gray-400 font-semibold py-2 px-5 text-center'><span className='font-bold text-xl block text-left text-white'>Desc:</span>
-                    "Unveil my portfolio project on GitHub! 🌟 Built with React, JavaScript, and Tailwind CSS, it showcases my skills and projects. Dive into the code and explore my work. Your insights are appreciated as I continue to develop engaging web experiences. 💼🚀"
+                    The platform showcases property listings, search features, and contact forms. Upcoming enhancements include dynamic functionalities like property filtering and sorting for improved user interaction.
                     </p>
                     <p className='text-gray-400 font-semibold py-2 px-5'><span className='font-bold text-xl block text-left text-white'>Technology used:</span>
                     <ul>
-                        <li>React</li>
+                    <li>React js</li>
                         <li>Javascript</li>
                         <li>Tailwind css</li>
-                        
-                    </ul>
-                    </p>
-                    
-                </div>
-                <div className="project-box-3 rounded-xl py-2 h-fit md:h-[750px] md:w-[30%] flex flex-col mx-auto border-2">
-                    <h1 className='text-center font-bold text-2xl text-white py-3'>Landing page</h1>
-                    <div className="image">
-                        <img src="./project.png" alt="image-project3" className='w-[80%] mx-auto py-3' />
-                    </div>
-                    <a href="https://aryank35.github.io/My-Home-page/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>project link</button></a>
-                    <p className='text-gray-400 font-semibold py-2 px-5 text-center'><span className='font-bold text-xl block text-left text-white'>Desc:</span>
-                    🚀 Explore my GitHub repository to discover my meticulously crafted HTML and CSS UsabilityHub clone. 🌐 This project pays homage to UsabilityHub's design and functionality. Your feedback is invaluable in my journey to hone my web development skills and create engaging, user-friendly web experiences. 🙌
-                    </p>
-                    <p className='text-gray-400 font-semibold py-2 px-5'><span className='font-bold text-xl block text-left text-white'>Technology used:</span>
-                    <ul>
-                        <li>HTML</li>
-                        <li>css</li> 
                     </ul>
                     </p>                    
                     
                 </div>
+                <div className="project-box-1 rounded-xl py-2 h-fit md:h-[650px] md:w-[30%] flex flex-col mx-auto border-2">
+                    <h1 className='text-center font-bold text-2xl text-white py-3'>Picnic-Management-System</h1>
+                    <div className="image">
+                        <img src="./picnic.jpeg" alt="image-project1" className='w-[80%] mx-auto py-3' />
+                    </div>
+                    <a href="https://main--steady-swan-1fbb33.netlify.app/" target="_blank" className='mx-auto'><button className='px-4 py-2 border-1 rounded-xl text-white font-semibold flex justify-center bg-slate-600 '>project link</button></a>
+                    <p className='text-gray-400 font-semibold py-2 px-5 text-center'><span className='font-bold text-xl block text-left text-white'>Desc:</span>
+                    PicnicPro, a web app crafted with HTML, CSS, and JavaScript, simplifies college picnic planning. Bid farewell to chaos and embrace seamless picnic experiences. Join us to kickstart unforgettable picnics today! 🌞🌲🎉
+                    </p>
+                    <p className='text-gray-400 font-semibold py-2 px-5'><span className='font-bold text-xl block text-left text-white'>Technology used:</span>
+                    <ul>
+                        <li>HTML</li>
+                        <li>Tailwind css</li>
+                        <li>Javascript</li>
+                        
+                    </ul>
+                    </p>
+                    
+                </div>
+                
+                
             </div>
         
     </div>
