@@ -18,7 +18,7 @@ const Footer = () => {
             <a className='text-white' target='_blanck' href="https://github.com/Aryank35"><FontAwesomeIcon icon={faGithub} /></a>
             <a className='text-white' target='_blanck' href="https://twitter.com/AryanKumarMoha5"><FontAwesomeIcon icon={faTwitter} /></a>
             <a className='text-white' target='_blanck' href="https://www.facebook.com/profile.php?id=100010444745012"><FontAwesomeIcon icon={faSquareFacebook} /></a>
-            <a className='text-white' target='_blanck' href="https://www.instagram.com/aryan_mohapatra_35/"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a className='text-white' target='_blanck' href="https://www.instagram.com/er.aryan35/"><FontAwesomeIcon icon={faInstagram} /></a>
             
             
         </div>
